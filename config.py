@@ -12,15 +12,15 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "7427691214 7045191057").split()))
+EVAL = list(map(int, getenv("EVAL", "5340652544").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Shubham_x_official")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "File_Renamer_SM_Bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "File Renamer Bot")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://jyotimaurya891824:hIAI9R7ak2aXyeSL@cluster0.kmdn45v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002057330647))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", 5340652544))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,9 +55,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/DAXXMUSIC",
+    "https://github.com/PYHOMES00/niocesz/",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # ----------------------------------------------------------------
